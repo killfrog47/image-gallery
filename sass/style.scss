@@ -3,6 +3,7 @@
 	padding:5px;
 	box-sizing: border-box;
 	background: #E2EAE2;
+	position:relative;
 	.featureHolder {
 		position: relative;
 		width:640px;
@@ -16,15 +17,23 @@
 		height:75px;
 		li {
 			display:inline-block;
-			
+			cursor: pointer;
+			margin-right: 1px;
 		}
+	}
+	.active{
+		border:2px solid #00FF00;
+		box-sizing:border-box;
 	}
 	.galleryThumbs {
 		margin-top: 5px;
 		overflow: hidden;
-		.active{
-			border:2px solid #00FF00;
-			box-sizing:border-box;
+		.galleryThumb {
+			height:75px;
+			width:100px;
 		}
 	}
+}
+.clear {
+	clear:both;
 }

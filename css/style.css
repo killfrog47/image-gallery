@@ -2,7 +2,8 @@
   width: 650px;
   padding: 5px;
   box-sizing: border-box;
-  background: #E2EAE2; }
+  background: #E2EAE2;
+  position: relative; }
   #gallery .featureHolder {
     position: relative;
     width: 640px;
@@ -14,10 +15,18 @@
     white-space: nowrap;
     height: 75px; }
     #gallery ul li {
-      display: inline-block; }
+      display: inline-block;
+      cursor: pointer;
+      margin-right: 1px; }
+  #gallery .active {
+    border: 2px solid #00FF00;
+    box-sizing: border-box; }
   #gallery .galleryThumbs {
     margin-top: 5px;
     overflow: hidden; }
-    #gallery .galleryThumbs .active {
-      border: 2px solid #00FF00;
-      box-sizing: border-box; }
+    #gallery .galleryThumbs .galleryThumb {
+      height: 75px;
+      width: 100px; }
+
+.clear {
+  clear: both; }

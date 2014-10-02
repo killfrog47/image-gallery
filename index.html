@@ -4,20 +4,32 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/style.css"/>
 
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/holder.js"></script>
+	<script src="js/gallery.js"></script>
 </head>
 <body>
-
-	<ul id="slider">
-		<li><img src="holder.js/640x480/#000:#fff/text:Image1" alt=""></li>
-		<li><img src="holder.js/640x480/#000:#fff/text:Image2" alt=""></li>
-		<li><img src="holder.js/640x480/#000:#fff/text:Image3" alt=""></li>
-		<li><img src="holder.js/640x480/#000:#fff/text:Image4" alt=""></li>
-		<li><img src="holder.js/640x480/#000:#fff/text:Image5" alt=""></li>
-	</ul>
+	<div id="gallery">
+		<div class="featureHolder">
+			<img src="holder.js/640x480/#333:#fff/text:Image1" id="featuredImg" alt="">
+		</div>
+		<div class="galleryThumbs">
+			<ul id="galleryThumbs">
+				<li><img src="holder.js/100x75/#333:#fff/text:Image1" class="galleryThumb active" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image2" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image3" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image4" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image5" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image6" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image7" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image8" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image9" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+				<li><img src="holder.js/100x75/#333:#fff/text:Image10" data-bigimg="holder.js/640x480/#333:#fff/text:Full Image" class="galleryThumb" alt=""></li>
+			</ul>
+		</div>
+	</div>
 
 </body>
 </html>

@@ -1,0 +1,23 @@
+#gallery {
+  width: 650px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #E2EAE2; }
+  #gallery .featureHolder {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 0 auto; }
+  #gallery ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    height: 75px; }
+    #gallery ul li {
+      display: inline-block; }
+  #gallery .galleryThumbs {
+    margin-top: 5px;
+    overflow: hidden; }
+    #gallery .galleryThumbs .active {
+      border: 2px solid #00FF00;
+      box-sizing: border-box; }
